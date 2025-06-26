@@ -1,0 +1,41 @@
+
+  .navbar {
+    background-color: #1e2a38; /* dark navy */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    padding: 10px 20px;
+  }
+
+  .navbar a,
+  .navbar .dropdown-menu a {
+    color: #e165ba !important; /* light gray-blue */
+    font-weight: 500;
+    transition: color 0.2s ease;
+  }
+
+  .navbar a:hover,
+  .navbar .dropdown-menu a:hover {
+    color: #4da3ff !important; /* bright sky blue */
+  }
+
+  .carousel-inner img {
+    height: 500px;
+    object-fit: cover;
+    border-radius: 6px;
+    border: 2px solid #73a9d8;
+  }
+
+  .card img {
+    height: 200px;
+    object-fit: cover;
+    border-radius: 6px;
+    border: 1px solid #ccd6dd;
+  }
+
+  footer {
+    background: #0f1722; /* very dark blue */
+    text-align: center;
+    padding: 15px 0;
+    font-size: 14px;
+    color: #cbd5e1; /* light slate */
+  }
+
